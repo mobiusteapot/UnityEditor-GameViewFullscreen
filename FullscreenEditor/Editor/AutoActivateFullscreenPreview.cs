@@ -3,7 +3,7 @@ using UnityEditor;
 [InitializeOnLoad]
 public class AutoActivateFullscreenPreview
 {
-    public const string IsFullscreenPreviewEnabledKey = "FullscreenGameViewEnabled";
+    public const string IsFullscreenPreviewEnabledKey = "Fullscreen On Play";
 
     static AutoActivateFullscreenPreview()
     {

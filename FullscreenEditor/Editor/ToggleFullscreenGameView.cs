@@ -3,7 +3,7 @@ using UnityEditor;
 
 public class ToggleFullscreenGameView : Editor
 {
-    public const string MenuPathPrefix = "Tools";
+    public const string MenuPathPrefix = "Fullscreen";
     public const string IsEnabledBoolPath = AutoActivateFullscreenPreview.IsFullscreenPreviewEnabledKey;
     private const string FullMenuPath = MenuPathPrefix + "/" + IsEnabledBoolPath;
 
