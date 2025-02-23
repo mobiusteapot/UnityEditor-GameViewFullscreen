@@ -23,4 +23,6 @@ This solution has been tested and confirmed working with **Unity 6000.0.34f**.
 
 Once installed, go to "Tools/FullScreenGameViewEnabled" to toggle if the full screen view should be used on play.
 
+You will need to hide the task bar on most configurations.
+
 You can press **F11** at any time to toggle the fullscreen view.
