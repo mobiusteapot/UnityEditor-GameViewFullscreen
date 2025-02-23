@@ -6,13 +6,13 @@ This package allows toggling the Unity Game View to fullscreen mode by pressing 
 
 The package uses reflection and [Harmony](https://github.com/pardeike/Harmony) to modify internal Unity Editor behavior.  
 **Note:** Due to reliance on internal APIs, future Unity updates may break compatibility.  
-This solution has been tested and confirmed working with **Unity 2022.3**.
+This solution has been tested and confirmed working with **Unity 6000.0.34f**.
 
 ## Known Issues
 
 - **Monitor Limitation:** Fullscreen currently works reliably only on the monitor on which Unity was initially launched.
 - **Startup Error:** An error might appear upon opening Unity if Burst is enabled. This error is harmless and can be safely ignored.
-- **Performance:** In some configurations, the Game View may render twice, potentially impacting performance.
+- **Performance:** The game view window will render twice.
 
 ## Installation
 
@@ -21,8 +21,6 @@ This solution has been tested and confirmed working with **Unity 2022.3**.
 3. Select **Add package from git URL...**
 4. Paste the URL of this repository.
 
-Once installed, press **F12** during Play mode to toggle fullscreen on the Game View.
+Once installed, go to "Tools/FullScreenGameViewEnabled" to toggle if the full screen view should be used on play.
 
-## Support
-
-For issues or suggestions, please open an issue in the repository.
+You can press **F11** at any time to toggle the fullscreen view.
