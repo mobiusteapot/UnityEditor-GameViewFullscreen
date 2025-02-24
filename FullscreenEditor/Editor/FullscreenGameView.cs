@@ -2,7 +2,11 @@ using System;
 using System.Reflection;
 using UnityEditor;
 using UnityEngine;
-
+// Forked from https://github.com/JorGra/JG-UnityEditor-GameViewFullscreen
+/// <summary>
+/// When enabled or activated, tries to run the game view full screen by rendering the game view to a new window that is the size of the monitor, and hiding the toolbar.
+/// Does not use the same API as a native fullscreen build, so performance will not be the same as "exclusive" fullscreen
+/// </summary>
 public static class FullscreenGameView
 {
     static readonly Type GameViewType = Type.GetType("UnityEditor.GameView,UnityEditor");
